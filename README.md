@@ -1,10 +1,16 @@
-# Desafio: Classificador de Nível de Herói
+# Desafios de Programação
 
-Este programa em JavaScript classifica o nível de um herói com base em sua pontuação de XP (pontos de experiência).
+Este repositório contém desafios de lógica de programação em JavaScript, com foco em classificação e cálculos baseados em entrada do usuário.
 
-## Como funciona
+---
 
-O usuário informa o nome do herói e o valor de XP. O programa então classifica o herói em um dos seguintes níveis:
+## Desafio 1: Classificador de Nível de Herói
+
+Classifica o nível de um herói com base em sua pontuação de XP.
+
+### Como funciona
+
+O usuário informa o nome do herói e o valor de XP. O programa classifica o herói em um dos seguintes níveis:
 
 - **Ferro:** 0 a 1000 XP
 - **Bronze:** 1001 a 2000 XP
@@ -15,26 +21,48 @@ O usuário informa o nome do herói e o valor de XP. O programa então classific
 - **Imortal:** 9001 a 10000 XP
 - **Radiante:** acima de 10000 XP
 
-Ao final, o programa exibe a mensagem com o nome do herói e seu nível correspondente.
+### Como executar
 
-## Como executar
-
-1. Certifique-se de ter o Node.js instalado.
-2. Instale o pacote `prompt-sync` (caso não tenha):
+1. Instale o Node.js.
+2. Instale o pacote `prompt-sync`:
    ```
    npm install prompt-sync
    ```
-3. Execute o programa:
+3. Execute:
    ```
    node DesafioClassificadorNivelHeroi.js
    ```
 
-4. Siga as instruções no terminal para inserir o nome e o XP do herói.
+---
 
-## Exemplo de uso
+## Desafio 2: Calculador de Partidas Rankeadas
 
-```
-Digite o nome do herói: Arthur
-Digite o XP do herói: 3500
-O herói Arthur é do nível Prata.
-```
+Calcula o saldo de vitórias e derrotas de um herói e classifica seu nível.
+
+### Como funciona
+
+O usuário informa o nome do herói, número de vitórias e derrotas. O programa calcula o saldo (`vitórias - derrotas`) e classifica o herói:
+
+- **Ferro:** saldo 0 a 10
+- **Bronze:** saldo 11 a 20
+- **Prata:** saldo 21 a 50
+- **Ouro:** saldo 51 a 80
+- **Diamante:** saldo 81 a 90
+- **Lendário:** saldo 91 a 100
+- **Imortal:** saldo acima de 100
+
+### Como executar
+
+1. Instale o Node.js.
+2. Instale o pacote `prompt-sync`:
+   ```
+   npm install prompt-sync
+   ```
+3. Execute:
+   ```
+   node Desafio2/CalculadorDePartidasRankeadas.js
+   ```
+
+---
+
+Novos desafios serão adicionados conforme o progresso dos estudos.
