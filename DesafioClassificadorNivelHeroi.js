@@ -12,8 +12,8 @@ script = require('prompt-sync')();
 // - Radiante: acima de 10000 XP
 
 
-let nome = script("Digite o nome do herói: ");
-let xp = script("Digite o XP do herói: ");
+let nome = String(script("Digite o nome do herói: "));
+let xp = Number(script("Digite o XP do herói: "));
 let NivelFinal = "";
 if (xp<=1000) {
     NivelFinal = "Ferro";
@@ -44,4 +44,5 @@ else {
     console.log("Insira um valor válido de XP.");
 }
 
-console.log("O herói " + nome + " é do nível " + NivelFinal + ".");
+
+console.log(`O herói ${nome} é do nível ${NivelFinal}.`);
