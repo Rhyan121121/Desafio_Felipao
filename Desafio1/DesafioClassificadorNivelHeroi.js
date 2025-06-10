@@ -40,8 +40,8 @@ else if (xp>10000) {
     NivelFinal = "Radiante";
 }
 else {
+    console.log("XP inválido.");
     NivelFinal = "Nível desconhecido";
-    console.log("Insira um valor válido de XP.");
 }
 
 
