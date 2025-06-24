@@ -65,4 +65,37 @@ O usuário informa o nome do herói, número de vitórias e derrotas. O programa
 
 ---
 
-Novos desafios serão adicionados conforme o progresso dos estudos.
+## Desafio 3: Escrevendo as Classes de um Jogo
+
+Crie uma classe genérica que represente um herói de uma aventura com as seguintes propriedades:
+- nome
+- idade
+- tipo (ex: guerreiro, mago, monge, ninja)
+
+Além disso, deve ter um método chamado `atacar` que exibe a mensagem:
+
+- "O {tipo} atacou usando {ataque}"
+
+Onde o {ataque} depende do tipo:
+- mago: usou magia
+- guerreiro: usou espada
+- monge: usou artes marciais
+- ninja: usou shuriken
+
+### Como executar
+
+1. Instale o Node.js.
+2. Instale o pacote `prompt-sync`:
+   ```
+   npm install prompt-sync
+   ```
+3. Execute:
+   ```
+   node Desafio3/EscrevendoAsClassesDeUmJogo.js
+   ```
+
+---
+
+_Fim do README_
+
+Agradeço por visitar este repositório! Se você gostou dos desafios ou tem sugestões, fique à vontade para abrir uma issue ou contribuir. Bons estudos e boa programação! 🚀
